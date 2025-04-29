@@ -4,7 +4,7 @@ public class GoodsApp {
 
 	//시나리오 짜는 곳
 	public static void main(String[] args) {
-		//main이 붙은 애가 첫번째
+		            //main이 붙은 애가 첫번째
 		
 		Goods camera = new Goods();
 		camera.name="니콘";
