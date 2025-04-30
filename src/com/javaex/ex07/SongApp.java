@@ -5,9 +5,9 @@ public class SongApp {
 	public static void main(String[] args) {
 		
 		//====아이유====
-		Song A01 = new Song();
+		Song A01 = new Song(); // 파일 이름이 아닌 생성자를 호출하는 것.
 		
-		A01.setArtist("아이유");
+		A01.setArtist("아이유"); 
 		A01.setTitle("좋은날");
 		A01.setAlbum("Real");
 		A01.setYear(2010);

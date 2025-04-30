@@ -9,9 +9,12 @@ public class Goods {
 	 private int price;
 	//private는 다른 사용자가 접근하지 못하게 하기 위함
 	  
-	//생성자
-	
-	 
+	//생성자 - 메모리에 올린다. (자동)
+	 public Goods() {
+		
+			//우리가 따로 코드 짤 필요는 없음.
+			//따로 자료형도 안붙음
+		}
 	 
 	 
 	//메소드
