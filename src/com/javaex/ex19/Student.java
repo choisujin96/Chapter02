@@ -19,7 +19,7 @@ public class Student extends Person {
 	}
 
 	public Student(String name, int age, String schoolName) {
-		super(name, age); // person의 파라미처 2개짜리 생성자 실행
+		super(name, age); // person의 파라미터 2개짜리 생성자 실행
 		this.schoolName = schoolName;
 		System.out.println("student(3)");
 	}
