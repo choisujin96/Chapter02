@@ -1,4 +1,4 @@
-package com.javaex.ex22;
+package com.javaex.ex23;
 
 public class Triangle extends Shape {
 
@@ -64,12 +64,17 @@ public class Triangle extends Shape {
 		System.out.println("================================");
 	}
 
-	
+	/*
 	public void soojin() {
 		System.out.println("트랄라라라라");
 	}
+	*/
 	
-	
-	
+	//넓이 구하는 함수
+	public void area() {
+		System.out.println("삼각형의 넓이--------------");
+		System.out.println(width*height/2);
+		System.out.println("---------------------");
+	}
 	
 }

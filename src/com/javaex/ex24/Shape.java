@@ -1,4 +1,4 @@
-package com.javaex.ex22;
+package com.javaex.ex24;
 
 public abstract class Shape {
 	
@@ -64,9 +64,18 @@ public abstract class Shape {
 	오버라이딩용 메소드 작성 메소드 껍데기만 만들기
 	abstract 사용해서 내부코드는 없어도 되게 한다.
 	abstract 를 사용한 메소드는 자식이 꼭 구현해야한다.
-	*/
-	public abstract void draw(); //내용을 안써도 됨   ----> 오버리딩용 메소드 (자식쪽에 꼭 같은 메소드가 있어야함)
 	
-	public abstract void soojin();
+	
+	
+	//지금은 인터페이스가 draw()개념을 가지고 있음.
+	public abstract void draw(); //내용을 안써도 됨   ----> 오버리딩용 메소드 (자식쪽에 꼭 같은 메소드가 있어야함)
+	 */
+	
+	
+	
+	//public abstract void soojin();
+	public void area() {
+		System.out.println("어쩔 수 없이 만들었음");
+	}
 	
 }

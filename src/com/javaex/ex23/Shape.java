@@ -1,4 +1,4 @@
-package com.javaex.ex22;
+package com.javaex.ex23;
 
 public abstract class Shape {
 	
@@ -67,6 +67,9 @@ public abstract class Shape {
 	*/
 	public abstract void draw(); //내용을 안써도 됨   ----> 오버리딩용 메소드 (자식쪽에 꼭 같은 메소드가 있어야함)
 	
-	public abstract void soojin();
+	//public abstract void soojin();
+	public void area() {
+		System.out.println("어쩔 수 없이 만들었음");
+	}
 	
 }

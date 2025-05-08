@@ -63,4 +63,9 @@ public class Rectangle extends Shape {
 	}	
 
 	
+	public void soojin() {
+		System.out.println("랙탱그그그긁르르ㅡㄹ");
+	}
+	
+	
 }

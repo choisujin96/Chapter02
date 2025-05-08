@@ -1,4 +1,4 @@
-package com.javaex.ex22;
+package com.javaex.ex23;
 
 public class Circle extends Shape {
 	
@@ -49,8 +49,29 @@ public class Circle extends Shape {
 		System.out.println("================================");
 	}	
 	
+	/*
 	public void soojin() {
 		System.out.println("써클러로로로로로");
 	}
+	*/
+	
+	//넓이 구하는 함수
+	public void area() {
+		System.out.println("원의 넓이--------------");
+		System.out.println(3.14*radius*radius);
+		System.out.println("---------------------");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }
